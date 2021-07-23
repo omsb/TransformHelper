@@ -7,10 +7,10 @@ Unityでマップなどの配置をサポートするツール
 
 |項目             |説明|
 |----             |----|
-|Move - Special   |Origin：原点(0,0,0)に移動<br>Approximate：サイズの近似値に移動|
-|Move - Relative  |相対移動|
-|Move - ItemSize  |選択オブジェクトのサイズに合わせて移動|
-|Rotate - Relative|相対回転|
+|Move - Special   |Origin：原点(0,0,0)に移動<br>Approximate：サイズの近似値に移動<br>例：10*5のサイズのオブジェクトがx:9, y:5.5にいるとx:10, y:5に移動する|
+|Move - Relative  |数値の値だけ相対的に移動|
+|Move - ItemSize  |選択オブジェクトのサイズ幅で移動|
+|Rotate - Relative|数値の値だけ相対的に回転|
 |Scale            |スケール値を設定(絶対値)|
 |Inversion        |反転する(スケールに-1を掛ける)|
 |SizeCheck        |選択オブジェクトのサイズを確認|
@@ -22,6 +22,6 @@ PackageManagerより「Add package from git URL」に以下のURLを入力して
 
 # 使い方
 1.上部タブより「OMSB」>「TransformHelper」を選択<br>
-![image](https://user-images.githubusercontent.com/1855970/126736166-4cdb8892-3cf4-4c81-a4d7-9bc3e22a15a8.png)
+![image](https://user-images.githubusercontent.com/1855970/126736166-4cdb8892-3cf4-4c81-a4d7-9bc3e22a15a8.png)<br>
 2.Transformを変更したいオブジェクトを選択<br>
 3.各ボタンを選択
