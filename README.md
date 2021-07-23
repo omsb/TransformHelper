@@ -15,6 +15,10 @@ Unityでマップなどの配置をサポートするツール
 |Inversion        |反転する(スケールに-1を掛ける)|
 |SizeCheck        |選択オブジェクトのサイズを確認|
 
+※「Approximate」「Move-ItemSize」は仕様上、複数オブジェクトに対応していませんので、<br>
+複数選択時はボタンが押せないようになっています。<br>
+(選択したオブジェクトの配下にあるメッシュオブジェクトを全て取得してサイズを計算しているため)
+
 # インストール方法
 ![image](https://user-images.githubusercontent.com/1855970/125154251-1180df80-e194-11eb-90d7-a11e31e40c5f.png)<br>
 PackageManagerより「Add package from git URL」に以下のURLを入力してください。<br>
