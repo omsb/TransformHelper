@@ -1,9 +1,9 @@
 {
   "name": "dev.omusubi.transformhelper",
-  "displayName": "Help with Transform settings",
+  "displayName": "Transform Helper",
   "version": "1.0.0",
   "unity": "2019.4",
-  "description": "Tool to rename the selected GameObject",
+  "description": "Help with Transform settings",
   "documentationUrl": "https://github.com/h-tawara/TransformHelper",
   "dependencies": {
   },
